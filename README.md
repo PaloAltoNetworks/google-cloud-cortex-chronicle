@@ -1,5 +1,5 @@
-# panw_chronicle_gcs_to_gcs
-Creates a Cloud Run job and a trigger which replicate data from Cortex [XDR Event Forwarding](https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Pro-Administrator-Guide/Manage-Event-Forwarding) Bucket to Customer's GCS bucket
+# panw_chronicle_ingestion_telemetry_from_Cortex_XDR
+Creates a Cloud Run job and a trigger which replicates data from Cortex [XDR Event Forwarding](https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Pro-Administrator-Guide/Manage-Event-Forwarding) Bucket to Customer's GCS bucket
 
 ## Output
 1. Cloud Run Job
