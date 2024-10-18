@@ -1,4 +1,4 @@
-User Guide - Palo Alto Corex XDR Event Forwarding to Google SecOps
+# User Guide - Palo Alto Corex XDR Event Forwarding to Google SecOps
 
 
 ### Introduction
@@ -137,7 +137,7 @@ gcloud storage buckets add-iam-policy-binding $CHRONICLE_BUCKET \
     --role='roles/storage.objectAdmin'
 
 
-`gcloud storage buckets add-iam-policy-binding $CHRONICLE_BUCKET \
+gcloud storage buckets add-iam-policy-binding $CHRONICLE_BUCKET \
 
     --member='serviceAccount:$CORTEX_EMAIL' \
 
@@ -165,10 +165,13 @@ gcloud storage buckets add-iam-policy-binding $CHRONICLE_BUCKET \
 
 2. As the project owner Open Cloud Shell and download the code using 
 
-`git clone https://github.com/PaloAltoNetworks/google-cloud-cortex-chronicle.git`
-
-
-`cd google-cloud-cortex-chronicle/` The contents of this directory are shown below
+```bash
+git clone https://github.com/PaloAltoNetworks/google-cloud-cortex-chronicle.git
+```
+```bash
+cd google-cloud-cortex-chronicle/
+```
+The contents of this directory are shown below
 
 
 
@@ -180,7 +183,7 @@ gcloud storage buckets add-iam-policy-binding $CHRONICLE_BUCKET \
 
 
 ```shell
-REGION=us-central1 # update this to the region you want
+REGION=<your region> # update this to the region you want
 
 REPO_NAME=panw-chronicle # The repo name to create
 
@@ -206,9 +209,14 @@ JOB_SCHEDULE_MINS=30
 
 4. Provide execute permissions to the deploy.sh using the command 
 
-`chmod 744 deploy.sh`
-
-5. Run the deploy.sh using command `./deploy.sh`. This steps does following
+```bash
+chmod 744 deploy.sh
+```
+5. Run the deploy.sh using command 
+```bash
+./deploy.sh
+```
+This steps does following
 
 - Creates an artifact registry repository
 
@@ -228,7 +236,7 @@ JOB_SCHEDULE_MINS=30
 
 ![Image](./images/image2.png)
 
-- Grant permission through the Secret Manager -> Permissions (Secret):
+- Grant permission through the Secret Manager -> Permissions (Secret Manager Secret Accessor):
 
 
 
