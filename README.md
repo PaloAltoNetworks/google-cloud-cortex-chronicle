@@ -124,8 +124,10 @@ The Cortex XDR service account created during the event forwarding setup already
 - You can get the service account name by:
 
 
-
-`CORTEX_EMAIL=$(jq -r '.client_email' <(gcloud secrets versions access latest --secret=EVENT_FRWD_CRTX_KEY))`
+```bash
+CORTEX_EMAIL=$(jq -r '.client_email' <(gcloud secrets versions access latest --secret=EVENT_FRWD_CRTX_KEY))
+CHRONICLE_BUCKET="cortex-xdr-events-destination-09302024" #the GCS bucket you created in the beginning
+```
 
 - Grant the permissions through gcloud:
 
