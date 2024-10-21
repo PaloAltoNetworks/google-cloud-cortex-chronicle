@@ -4,7 +4,7 @@
 ### Introduction
 
 This document provides detailed steps for a customer to achieve Cortex XDR Events / Telemetry forwarding to Google Security Operations (SIEM/Chronicle)
-And this will be community supported, if there is any questions, please reach out to the community or contact: [google-tech@paloaltonetworks.com](mailto:google-tech@paloaltonetworks.com)
+And this will be community supported, if there is any questions, please reach out to the community or contact: [google-tech@paloaltonetworks.com](mailto:google-tech@paloaltonetworks.com), or you can access the community page at [https://live.paloaltonetworks.com/t5/general-articles/palo-alto-cortex-xdr-event-forwarding-to-google-secops-chronicle/ta-p/600621](https://live.paloaltonetworks.com/t5/general-articles/palo-alto-cortex-xdr-event-forwarding-to-google-secops-chronicle/ta-p/600621)
 
 
 
