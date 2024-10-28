@@ -41,7 +41,7 @@ Make sure that the bucket is in the same region as the customer’s Chronicle Re
 
 2. Set up Cortex XDR Event Forwarding 
 
-Setup the Cortex XDR event forwarding and download the service account key. It will save as event_forwarding_credentials.json(name could be different in your case). For the complete guide to event forwarding please refer to this link. The following screenshot shows the customer performing this action. At the end of this step the customer must have 
+Setup the Cortex XDR event forwarding (an [Add-on Feature](https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Pro-Administrator-Guide/Manage-Event-Forwarding) of Cortex XDR) and download the service account key. It will save as event_forwarding_credentials.json(name could be different in your case). For the complete guide to event forwarding please refer to [this link](https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Pro-Administrator-Guide/Parsing-Rules-Raw-Dataset). The following screenshot shows the customer performing this action. At the end of this step the customer must have 
 
 - Storage Path (GCS Bucket URL)
 
